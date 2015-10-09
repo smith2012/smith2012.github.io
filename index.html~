@@ -2,14 +2,14 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Ouyang's test site</title>
+  <title>网站名字</title>
   <!-- Add some style to your site, see http://getbootstrap.com for details -->
   <link rel="stylesheet"
   href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 </head>
 <body>
   <h1>YOUR SITE TITLE</h1>
-  <p>want to add some interaction code here in future</p>
-  <p>so this site can get data from matchine and display to browser</p>
+  <p>Your text blahblahbhalbha</p>
+  <p>Another paragraph!  Maybe more text!</p>
 </body>
 </html>
