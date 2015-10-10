@@ -10,14 +10,17 @@
 <body>
   <h1>Ouyang Test SITE TITLE</h1>
   <p>want to add some interaction code here in future</p>
-<script type="text/javascript">
-function myfun()
-{
-alert("this window.onload");
-}
-/*用window.onload调用myfun()*/
-window.onload=myfun;//不要括号
-</script>
-  <p>so this site can get data from matchine and display to browser</p>
+
+<script type="text/javascript" src="a.js"></script>
+<script  type="text/javascript">
+    window.onload = function(){
+    abc();
+    };
+ </script>
+
+
+<input type="button"  id="myText" onclick="setColSpan()" value="改变colspan值">
+
+  <p>so this site can get data from machine and display to browser</p>
 </body>
 </html>

@@ -10,13 +10,24 @@
 <body>
   <h1>Ouyang Test SITE TITLE</h1>
   <p>want to add some interaction code here in future</p>
-<script>  
-    function displayTime(){  
-        ... ...  
-    }  
-  
-    window.onload = displayTime;  
-</script> 
-  <p>so this site can get data from matchine and display to browser</p>
+
+<script type="text/javascript" src="a.js"></script>
+<script  type="text/javascript">
+    window.onload = function(){
+    abc();
+    };
+ </script>
+
+<script type="text/javascript">
+function function1()
+{
+document.getElementById("myText").style.background= "#FF0000"; // 改变背景颜色
+} 
+window.onload=function1;//不要括号
+</script>
+
+<input type="button"  id="myText" onclick="setColSpan()" value="改变colspan值">
+
+  <p>so this site can get data from machine and display to browser</p>
 </body>
 </html>
